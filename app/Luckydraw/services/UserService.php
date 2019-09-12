@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Luckydraw\services;
+namespace LDS\services;
 
-class UserService{
+class UserService
+{
     
 }

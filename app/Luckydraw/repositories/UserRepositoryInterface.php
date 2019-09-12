@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Luckydraw\repositories;
+namespace LDS\repositories;
 
-interface UserRepository
+interface UserRepositoryInterface
 {
   public function getUser();
 }
