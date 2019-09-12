@@ -1,0 +1,2 @@
+# lds
+lucky dram system
