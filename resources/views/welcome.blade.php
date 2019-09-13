@@ -8,13 +8,13 @@
         <title>Lucky draw system - beta</title>
         <link href="{{asset('css/app.css')}}" rel="stylesheet" type="text/css">
         <script>
-        window.Laravel = <?= json_encode([
+        window.app = <?= json_encode([
             'csrfToken' => csrf_token(),
         ]); ?>
         </script>
     </head>
     <body>
-        <div id="example"></div>
+        <div id="app"></div>
         <script src="{{asset('js/app.js')}}" ></script>
     </body>
 </html>

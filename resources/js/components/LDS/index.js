@@ -1,7 +1,9 @@
 import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
 import AppLayout from './Layout';
+import 'antd/dist/antd.css'
 
-export default class LDS extends Component {
+export default class App extends Component {
     render() {
         return (
             <AppLayout />
@@ -9,6 +11,6 @@ export default class LDS extends Component {
     }
 }
 
-if (document.getElementById('example')) {
-    ReactDOM.render(<LDS />, document.getElementById('example'));
+if (document.getElementById('app')) {
+    ReactDOM.render(<App />, document.getElementById('app'));
 }
